@@ -27,6 +27,7 @@ gamma=-gamma/1e6 # rad/s/uT
 # gamma is positive in the physical constants library
 # to make it negative, you have to add a minus sign
 # I think I've corrected signs below so that either sign can be selected
+# After cheating by doing RK, I fixed the signs again.
 
 # Set the field and rate at which it should change, here.
 B1=1 # uT
@@ -37,7 +38,7 @@ omega1=2*pi/T1 # Hz
 # I picked omega1=2*pi*(1 Hz) here.
 
 Beff=sqrt(B1**2+(omega1/gamma)**2)
-sintheta=omega1/abs(gamma*Beff)
+sintheta=omega1/gamma/Beff
 costheta=B1/Beff
 
 omega=gamma*Beff
