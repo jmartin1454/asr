@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-# Simulates adiabatic spin rotation
+# Simulates adiabatic spin rotation by solving the Bloch equations
+# using Runge-Kutta integration
+
 # by Jeff
 
 from math import *

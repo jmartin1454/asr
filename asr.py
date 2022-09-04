@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+# The exact solution is graphed.  For the derivation of the solution,
+# please see the handwritten notes.
+
 from scipy.constants import *
 from math import *
 
