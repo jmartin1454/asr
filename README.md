@@ -18,3 +18,6 @@ magnetic field.
 
 This program compares the actual spin dynamics with the adiabatic
 limit.
+
+asr_rk_taper.py shows what happens under a linear decrease in the
+magnetic field magnitude during rotation.
